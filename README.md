@@ -1,2 +1,5 @@
-# xiaoyu-courant.github.io
-Academic homepage of Xiaoyu Wang, Mathematics Ph.D. student at NYU Courant.
+# Xiaoyu Wang
+
+Academic homepage: https://xiaoyu-courant.github.io/
+
+Edit `index.html` for content and `styles.css` for appearance. GitHub Pages publishes the `main` branch from the repository root.
