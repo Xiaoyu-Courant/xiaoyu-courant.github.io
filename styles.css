@@ -17,7 +17,10 @@ nav a:hover{text-decoration:underline}
 #about{grid-column:1;grid-row:1;min-width:0}
 .research{grid-column:1;grid-row:2;min-width:0}
 .portrait{grid-column:2;grid-row:1}
-.contact{grid-column:2;grid-row:2;min-width:0}
+.contact{grid-column:2;grid-row:2/4;min-width:0}
+.papers{grid-column:1;grid-row:3;min-width:0}
+.paper-list{margin:0;padding-left:1.25em;color:var(--body)}
+.paper-list li{margin:0 0 12px;line-height:1.5}
 .bio-detail{color:var(--body);margin:0 0 10px;line-height:1.5}
 .research{margin-top:0}
 h2{font-family:var(--serif);font-size:1.45rem;line-height:1.4;margin:0 0 12px;font-weight:400}
@@ -33,4 +36,4 @@ address{font-style:normal;font-size:1rem;color:var(--body);line-height:1.5}
 .skip-link{position:absolute;left:12px;top:-100px;background:var(--ink);color:#fff;padding:8px 16px;z-index:10}
 .skip-link:focus{top:10px}
 @media(max-width:850px){.page{padding:0 32px}.layout{grid-template-columns:minmax(0,1fr) 220px;column-gap:36px}}
-@media(max-width:640px){.page{padding:0 22px}.header{padding:20px 0;flex-wrap:wrap;gap:12px}.wordmark{font-size:1rem}nav{gap:18px}nav a{font-size:.875rem}.layout{grid-template-columns:minmax(0,1fr);row-gap:24px;padding:28px 0 36px}#about{grid-column:1;grid-row:1}.research{grid-column:1;grid-row:2;margin-top:0}.portrait{grid-column:1;grid-row:3;width:150px}.contact{grid-column:1;grid-row:4;max-width:320px;margin-top:0}}
+@media(max-width:640px){.page{padding:0 22px}.header{padding:20px 0;flex-wrap:wrap;gap:12px}.wordmark{font-size:1rem}nav{gap:18px}nav a{font-size:.875rem}.layout{grid-template-columns:minmax(0,1fr);row-gap:24px;padding:28px 0 36px}#about{grid-column:1;grid-row:1}.research{grid-column:1;grid-row:2;margin-top:0}.papers{grid-column:1;grid-row:3}.portrait{grid-column:1;grid-row:4;width:150px}.contact{grid-column:1;grid-row:5;max-width:320px;margin-top:0}}
